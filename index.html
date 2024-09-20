@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>My Portfolio</h1>
+            <nav>
+                <a href="#about">About Me</a> | 
+                <a href="#projects">Projects</a> | 
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Ray Angelo Quilas, A student of ISPSC Tagudin Campus. Below is a table showing some of my skills and a list of projects I have worked on.</p>
+            <div>
+                <img src="profile.jpg" alt="Profile Picture" style="display:block; margin:auto; max-width:100%; height:auto;">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <table border="1" cellspacing="0" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Website Redesign</td>
+                        <td>Revamped the design of a local business website.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Portfolio Website</td>
+                        <td>Built a personal portfolio website to showcase my work.</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Other Projects</h3>
+            <ul>
+                <li>Blog Platform</li>
+                <li>E-commerce Site</li>
+                <li>Personal Finance Tracker</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ray Agelo Quilas. All rights reserved.</p>
+    </footer>
+</body>
+</html>
